@@ -7,7 +7,7 @@ Rezultatai rodo, kad nuosavo vektoriaus visos funkcijos veikia taip pat ir std::
 
 2. Atlikta efektyvumos sparta originalaus vektoriaus bei nuosavo vektoriaus lygindami, kiek laiko užtruko tuščius vektorius pripildyt int elementais.(bandymai atlikti pildant 10000, 100000, 1000000, 10000000, 100000000 elementų)</br>
 
-| Left-aligned| Nuosavas Vector(laikas sec.)| std::vector(laikas sec.)|
+| Left-Aligned| Nuosavas Vector(laikas sec.)| std::vector(laikas sec.)|
 |:----------------------:|:--------------:|:----------:|
 | 1. 10000               |0.000531s.      |0.000625s.  |
 | 2. 100000              |0.005188s.      |0.005040s.  |
