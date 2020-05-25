@@ -1,10 +1,10 @@
 # Vector
 
 
-| Bandymo nr. (elem. sk.)| Nuosavas Vector| std::vector|
+| Bandymo nr. (elem. sk.)| Nuosavas Vector(laikas sec.)| std::vector(laikas sec.)|
 |:----------------------:|:--------------:|:----------:|
-| 1. 1000                |asdasd          |asd         |
-| 2. 10000               |asdasd          |asd         |
-| 3. 100000              |asdasd          |asd         |
-| 4. 1000000             |asdasd          |asd         |
-| 5. 10000000            |asdasd          |asd         |
+| 1. 10000               |0.000531s.      |0.000625s.  |
+| 2. 100000              |0.005188s.      |0.005040s.  |
+| 3. 1000000             |0.026717s.      |0.035840s.  |
+| 4. 10000000            |0.299027s.      |0.275683s.  |
+| 5. 100000000           |2.744350s.      |2.612590s.  |
