@@ -2,7 +2,10 @@
 
 1. Panaudojant nuosavą vektoriu reikia įsitikinti kad jis taip pat veikia. Tam atlikti panaudojome: konstruktorių, destruktorių, size(), capacity(), '=' operatorių, '[]' priėjimą prie elementų, push_back() funkcijas.</br>
 ![My_vector](my_vector_code.png)
-![My_vector](my_vector_different_functions.png)
+![My_vector](my_vector_different_functions.png)</br></br>
+Rezultatai rodo, kad nuosavo vektoriaus visos funkcijos veikia taip pat ir std::vector.</br></br>
+
+2. Atlikta efektyvumos sparta originalaus vektoriaus bei nuosavo vektoriaus lygindami, kiek laiko užtruko tuščius vektorius pripildyt int elementais.(bandymai atlikti pildant 10000, 100000, 1000000, 10000000, 100000000 elementų)</br>
 
 | Bandymo nr. (elem. sk.)| Nuosavas Vector(laikas sec.)| std::vector(laikas sec.)|
 |:----------------------:|:--------------:|:----------:|
