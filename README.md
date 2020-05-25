@@ -14,3 +14,7 @@ Rezultatai rodo, kad nuosavo vektoriaus visos funkcijos veikia taip pat ir std::
 | 3. 1000000             |0.026717s.      |0.035840s.  |
 | 4. 10000000            |0.299027s.      |0.275683s.  |
 | 5. 100000000           |2.744350s.      |2.612590s.  |
+
+3. Nuosavo vektoriaus funkcionalumas programoje v2.0 yra toks pats kaip ir std::vektoriaus, tačiau nėra realizuotos visos įmanomos funkcijos, kadangi ne visos yra būtinos šioje programoje. Programa veikia teisingai bei visi skaičiavimai atlikti teisingai, o tai parodo rezultatų failai "vargsiukai.txt" bei "kietiakai.txt".
+![My_vector](vargsiukai.png)</br>
+![My_vector](kietiakai.png)</br>
