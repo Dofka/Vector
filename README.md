@@ -7,7 +7,7 @@ Rezultatai rodo, kad nuosavo vektoriaus visos funkcijos veikia taip pat ir std::
 
 2. Atlikta efektyvumos sparta originalaus vektoriaus bei nuosavo vektoriaus lygindami, kiek laiko užtruko tuščius vektorius pripildyt int elementais.(bandymai atlikti pildant 10000, 100000, 1000000, 10000000, 100000000 elementų)</br>
 
-| Bandymo nr. (elem. sk.)| Nuosavas Vector(laikas sec.)| std::vector(laikas sec.)|
+| Left-aligned| Nuosavas Vector(laikas sec.)| std::vector(laikas sec.)|
 |:----------------------:|:--------------:|:----------:|
 | 1. 10000               |0.000531s.      |0.000625s.  |
 | 2. 100000              |0.005188s.      |0.005040s.  |
@@ -18,3 +18,6 @@ Rezultatai rodo, kad nuosavo vektoriaus visos funkcijos veikia taip pat ir std::
 3. Nuosavo vektoriaus funkcionalumas programoje v2.0 yra toks pats kaip ir std::vektoriaus, tačiau nėra realizuotos visos įmanomos funkcijos, kadangi ne visos yra būtinos šioje programoje. Programa veikia teisingai bei visi skaičiavimai atlikti teisingai, o tai parodo rezultatų failai "vargsiukai.txt" bei "kietiakai.txt".
 ![My_vector](vargsiukai.png)</br>
 ![My_vector](kietiakai.png)</br>
+
+4. Atlikta spartos analizė naudodami 100000 įrašų su nuosavu vektoriumi bei su std::vector.
+
